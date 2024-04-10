@@ -25,7 +25,7 @@ const Cart = () => {
       popup: "my-toast",
     },
   });
-  const [preferenceId, setPreferenceId] = useState(null);
+  const [preferenceId, setPreferenceId] = useState(nul);
   const [showCheckout, setShowCheckout] = useState(true);
   const userLogued = useSelector((state) => state.users.user);
   const cart = userLogued.usuario_id
